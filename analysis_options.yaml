@@ -1,0 +1,33 @@
+include: package:lints/recommended.yaml
+
+analyzer:
+  exclude: [build/**]
+  language:
+    strict-casts: true
+    strict-raw-types: true
+
+linter:
+  rules:
+    - always_declare_return_types
+    - cancel_subscriptions
+    - close_sinks
+    - combinators_ordering
+    - comment_references
+    - invalid_case_patterns
+    - library_annotations
+    - one_member_abstracts
+    - only_throw_errors
+    - unnecessary_lambdas
+    - unnecessary_overrides
+    - use_rethrow_when_possible
+    - void_checks
+    - constant_identifier_names
+    - prefer_collection_literals
+    - prefer_const_constructors
+    - prefer_final_locals
+    - prefer_relative_imports
+    - prefer_void_to_null
+    - use_full_hex_values_for_flutter_colors
+    - use_key_in_widget_constructors
+    - use_string_buffers
+    - prefer_equal_for_default_values
