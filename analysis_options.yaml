@@ -6,6 +6,15 @@ analyzer:
     strict-casts: true
     strict-raw-types: true
 
+  strong-mode:
+    implicit-casts: true
+
+  errors:
+    invalid_assignment: warning
+    missing_return: error
+    dead_code: info
+    unused_local_variable: info
+
 linter:
   rules:
     - always_declare_return_types
